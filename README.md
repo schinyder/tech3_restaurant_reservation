@@ -18,12 +18,9 @@ Desenvolver um  Sistema de Reserva e Avaliação de Restaurantes permitindo os s
 
 ## Executar a aplicação
 
-1. Execute o comando abaixo para iniciar o banco de dados:
-```bash
-docker run --name PostgreSQL-Qualidade_Software --env=POSTGRES_DB=backend --env=POSTGRES_USER=root --env=POSTGRES_PASSWORD=toor --volume=/var/lib/postgresql/data -p 5432:5432 -d postgres:16.1
-```
-3. Execute o comando `mvn spring-boot:run` para iniciar a aplicação;
-4. Acesse http://localhost:8080/mensagens
+
+1. Execute o comando `mvn spring-boot:run` para iniciar a aplicação;
+2. Acesse http://localhost:8080/mensagens
 
 ### Frameworks de teste utilizados
 - [JUnit 5](https://junit.org/junit5/)
