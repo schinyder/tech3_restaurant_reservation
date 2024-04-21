@@ -18,9 +18,7 @@ Desenvolver um  Sistema de Reserva e Avaliação de Restaurantes permitindo os s
 
 ## Executar a aplicação
 
-
 1. Execute o comando `mvn spring-boot:run` para iniciar a aplicação;
-2. Acesse http://localhost:8080/mensagens
 
 ### Frameworks de teste utilizados
 - [JUnit 5](https://junit.org/junit5/)
